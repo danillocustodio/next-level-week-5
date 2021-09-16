@@ -23,6 +23,12 @@
 
 //Por padrão o HTML define uma media padrão de 16px.
 
+@media (max-width: 1500px) {
+    html {
+        font-size: 80%;
+    }
+}
+
 @media (max-width: 1080px) {
     html {
         font-size: 93.75%; // 15px.
